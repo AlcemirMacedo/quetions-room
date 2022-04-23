@@ -1,9 +1,10 @@
 
 .voltar-icon{
-   color: va(--gray-dark);
+   color: va(--blue);
    margin-top: 8rem;
+   margin-left: 20px;
    opacity: 0.3;
-   transition: 0.5s;
+   transition: 0.2s;
    display: flex;
    align-items: center;
    font-family: 'Poppins';
@@ -13,15 +14,15 @@
 .voltar-icon a{
     display: flex;
     align-items: center;
-    color: var(--gray-dark);
+    color: var(--blue);
 }
 .voltar-icon:hover{
     opacity: 0.8;
-    color: var(--gray-dark);
+    color: var(--blue);
+    margin-left: 0;
 }
 .voltar-icon img{
     width: 5rem;
     height: 5rem;
-    transform: rotate(180deg);
     margin-right: 1.5rem;
 }

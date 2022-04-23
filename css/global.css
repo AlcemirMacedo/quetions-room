@@ -41,7 +41,7 @@ body, button, input, textarea{
     width: 100%;
     margin: 0 auto;
 }
-.sr-only{ /* esconde elemento sem eliminar */
+.sr-only{ /* hide element */
     position: absolute;
     height: 1px;
     width: 1px;
