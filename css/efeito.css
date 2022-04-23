@@ -1,0 +1,10 @@
+.night-vision-effect {
+    background-image: url(photo.jfif), radial-gradient(#0F0, rgb(0, 0, 0)), repeating-linear-gradient(transparent 0, rgba(0, 0, 0, 0.1) 2.5px, transparent 5px);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    height: 300px;
+    width: 300px;
+    transition: 0.5s;
+  }
+ 
