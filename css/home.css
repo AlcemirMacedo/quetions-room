@@ -13,7 +13,7 @@ header{
 }
 #bg{
     grid-area: left;
-    background: url('../assets/img-bg-head.svg') no-repeat top/contain;
+    background: url('../assets/img-bg-head.png') no-repeat top/contain;
     background-position: -10rem;
 }
 main{
