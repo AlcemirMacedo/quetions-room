@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/room.css">
+    <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/create-pass.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,7 +48,7 @@
                     <div class="quetion-wrapper">
                         <div class="question-content">
                             <div class="user">
-                                <img src="assets/Avatar.svg" alt="">
+                                <img src="assets/users-white.svg" alt="">
                             </div>
                             <div class="quetion">
                                 <p>Qual a diferença entre const, let e var no javascript?</p>
@@ -67,7 +68,7 @@
                     <div class="quetion-wrapper">
                         <div class="question-content">
                             <div class="user">
-                                <img src="assets/Avatar.svg" alt="">
+                                <img src="assets/users-white.svg" alt="">
                             </div>
                             <div class="quetion">
                                 <p>O que é Typescript?</p>
@@ -87,10 +88,10 @@
                     <div class="quetion-wrapper">
                         <div class="question-content">
                             <div class="user">
-                                <img src="assets/Avatar.svg" alt="">
+                                <img src="assets/users-white.svg" alt="">
                             </div>
                             <div class="quetion">
-                                <p>O que é javascript?</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                             </div>
                         </div>
                         <div class="actions">
@@ -104,11 +105,42 @@
                             </a>
                         </div>
                     </div>
+                    <div class="quetion-wrapper read">
+                        <div class="question-content">
+                            <div class="user">
+                                <img src="assets/users-white.svg" alt="">
+                            </div>
+                            <div class="quetion">
+                                <p>O que é javascript?</p>
+                            </div>
+                        </div>
+                        <div class="actions">                            
+                            <a href="#" class="delete">
+                                <img src="assets/trash.png" alt="">
+                                Excluir
+                            </a>
+                        </div>
+                    </div>
                     
                 </div>    
             </section>
         </main>
         
+    </div>
+    <!--MODAL-->
+    <div class="modal-wrapper">
+        <div class="modal">
+            <h2>Exluir</h2>
+            <p>Tem certeza que deseja exluir essa pergunta?</p>
+            <form action="#">
+                <label class="sr-only" for-id="password">Digite sua senha admin</label>
+                <input type="password"  name="password" placeholder="Digite sua senha">
+                <div class="buttons">
+                    <div class="button gray">Cancelar</div>
+                    <button class="red">Sim, excluir</button>
+                </div>
+            </form>
+        </div>
     </div>
 
     
